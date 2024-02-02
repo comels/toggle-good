@@ -12,15 +12,15 @@ export default function Example() {
         className="flex items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
-        <div className="flex lg:flex-1">
+        <div className="flex md:flex-1">
           <NavLink to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">ToggleGood</span>
             <h1 className="text-4xl tracking-tighter font-extrabold">
-              ToggleGood
+              Toggle<span className="text-kaki">Good</span>
             </h1>
           </NavLink>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex md:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -30,15 +30,15 @@ export default function Example() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden md:flex md:gap-x-12">
           <NavLink
             to="/rdv"
-            className="leading-6 text-sm font-bold bg-gray-800 px-4 py-2 rounded-lg text-white"
+            className="leading-6 text-sm font-bold bg-kaki px-4 py-2 rounded-lg hover:text-base text-white"
           >
             PRENDRE RDV
           </NavLink>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden md:flex md:flex-1 md:justify-end">
           <a
             href="https://www.linkedin.com/in/comels/"
             target="_blank"
@@ -56,12 +56,12 @@ export default function Example() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-stone-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6">
           <div className="flex items-center justify-between">
             <NavLink to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">ToggleGood</span>
               <h1 className="text-4xl tracking-tighter font-extrabold">
-                ToggleGood
+                Toggle<span className="text-kaki">Good</span>
               </h1>
             </NavLink>
             <button

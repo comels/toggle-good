@@ -8,12 +8,12 @@ const Home = () => {
       <Nav />
       <div className="px-6 py-16 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-5xl text-justify">
-          <h2 className="text-3xl text-center font-bold mb-5 tracking-tight text-gray-900 sm:text-4xl">
-            Basculer vers ce qui nous lie
+          <h2 className="text-3xl text-center font-extrabold mb-5 tracking-tighter text-gray-900 sm:text-4xl">
+            <span className="text-kaki">Basculer</span> vers ce qui nous lie
           </h2>
           <div className="grid md:grid-cols-2 gap-10 mx-10">
             <p className="mt-6 sm:text-lg leading-8 text-gray-600">
-              <span className="float-left text-gray-800 font-bold text-6xl leading-none mr-2">
+              <span className="float-left text-kaki font-extrabold text-7xl leading-none mr-3">
                 T
               </span>
               oggleGood est une entreprise qui offre une méthode novatrice

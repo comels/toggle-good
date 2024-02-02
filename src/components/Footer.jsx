@@ -8,17 +8,17 @@ const Footer = () => {
         {/* Section du logo et adresse */}
         <div className="flex flex-col mx-auto">
           <div className="text-center">
-          <NavLink
-            to="/rdv"
-            className="leading-6 text-sm font-bold bg-gray-800 px-4 py-3 rounded-lg text-white"
-          >
-            PRENDRE RDV
-          </NavLink>
+            <NavLink
+              to="/rdv"
+              className="leading-6 text-sm hover:text-base font-bold bg-kaki px-4 py-3 rounded-lg text-white"
+            >
+              PRENDRE RDV
+            </NavLink>
           </div>
         </div>
         {/* Horaires et contact */}
         <div className="flex flex-col items-center">
-          <h1 className="font-bold text-lg">Laurent Rouxel</h1>
+          <h1 className="font-bold mb-3 text-lg">Laurent <span className="text-kaki">Rouxel</span></h1>
           <a href="tel:+33679863983">
             <h2 className="text-gray-800">06 79 86 39 83</h2>
           </a>
