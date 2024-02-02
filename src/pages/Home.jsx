@@ -6,12 +6,12 @@ const Home = () => {
   return (
     <div className="bg-stone-100">
       <Nav />
-      <div className="px-6 py-16 sm:py-24 lg:px-8">
+      <div className="px-6 py-12 sm:py-20 lg:px-8">
         <div className="mx-auto max-w-5xl text-justify">
-          <h2 className="text-3xl text-center font-extrabold mb-5 tracking-tighter text-gray-900 sm:text-4xl">
+          <h2 className="text-2xl text-center font-extrabold mb-5 tracking-tighter text-gray-900 sm:text-4xl">
             <span className="text-kaki">Basculer</span> vers ce qui nous lie
           </h2>
-          <div className="grid md:grid-cols-2 gap-10 mx-10">
+          <div className="grid md:grid-cols-2 gap-10 mx-2 sm:mx-10">
             <p className="mt-6 sm:text-lg leading-8 text-gray-600">
               <span className="float-left text-kaki font-extrabold text-7xl leading-none mr-3">
                 T
@@ -43,7 +43,7 @@ const Home = () => {
               soulignent son impact positif notable.
             </p>
           </div>
-          <p className="mt-10 sm:text-lg leading-8 text-gray-600 max-w-5xl text-justify mx-10">
+          <p className="mt-10 sm:text-lg leading-8 text-gray-600 max-w-5xl text-justify mx-2 sm:mx-10">
             En résumé, ToggleGood offre aux chefs d'entreprise une méthode
             d'accompagnement unique et personnalisée, conçue pour transformer
             les processus décisionnels. Elle permet de surmonter l'isolement,

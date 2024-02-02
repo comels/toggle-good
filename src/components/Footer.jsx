@@ -18,7 +18,9 @@ const Footer = () => {
         </div>
         {/* Horaires et contact */}
         <div className="flex flex-col items-center">
-          <h1 className="font-bold mb-3 text-lg">Laurent <span className="text-kaki">Rouxel</span></h1>
+          <h1 className="font-bold mb-3 text-lg">
+            Laurent <span className="text-kaki">Rouxel</span>
+          </h1>
           <a href="tel:+33679863983">
             <h2 className="text-gray-800">06 79 86 39 83</h2>
           </a>
@@ -35,7 +37,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="text-center mt-16 font-light text-gray-800 text-xs">
+      <p className="text-center mt-10 sm:mt-16 font-light text-gray-800 text-xs">
         Copyright © 2024 -{" "}
         <a
           href="https://www.linkedin.com/in/comels/"
